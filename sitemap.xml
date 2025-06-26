@@ -24,5 +24,53 @@
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
     </url>
+    <url>
+    <loc>https://govhub.zyhgov.cn/data/2024-Adult-Higher-Education-Institutions.xls </loc>
+    <lastmod>2025-06-26</lastmod>
+    <changefreq>never</changefreq>
+    <priority>0.9</priority>
+</url>
+<url>
+    <loc>https://govhub.zyhgov.cn/data/2024-Higher-Education-Institutions.xls </loc>
+    <lastmod>2025-06-26</lastmod>
+    <changefreq>never</changefreq>
+    <priority>0.9</priority>
+</url>
+<url>
+    <loc>https://govhub.zyhgov.cn/data/2025年1-2月人力资源和社会保障主要统计数据.pdf</loc>
+    <lastmod>2025-06-26</lastmod>
+    <changefreq>never</changefreq>
+    <priority>0.9</priority>
+</url>
+<url>
+    <loc>https://govhub.zyhgov.cn/data/2025年1-3月人力资源和社会保障主要统计数据.pdf</loc>
+    <lastmod>2025-06-26</lastmod>
+    <changefreq>never</changefreq>
+    <priority>0.9</priority>
+</url>
+<url>
+    <loc>https://govhub.zyhgov.cn/data/2025年1-4月人力资源和社会保障主要统计数据.pdf</loc>
+    <lastmod>2025-06-26</lastmod>
+    <changefreq>never</changefreq>
+    <priority>0.9</priority>
+</url>
+<url>
+    <loc>https://govhub.zyhgov.cn/data/2025年1-5月人力资源和社会保障主要统计数据.pdf</loc>
+    <lastmod>2025-06-26</lastmod>
+    <changefreq>never</changefreq>
+    <priority>0.9</priority>
+</url>
+<url>
+    <loc>https://govhub.zyhgov.cn/data/2025年1月人力资源和社会保障主要统计数据.pdf</loc>
+    <lastmod>2025-06-26</lastmod>
+    <changefreq>never</changefreq>
+    <priority>0.9</priority>
+</url>
+<url>
+    <loc>https://govhub.zyhgov.cn/data/2025年5月份全国彩票销售情况.xlsx</loc>
+    <lastmod>2025-06-26</lastmod>
+    <changefreq>never</changefreq>
+    <priority>0.9</priority>
+</url>
 
 </urlset>
