@@ -1,0 +1,150 @@
+@font-face {
+  font-family: 'OpenAISans-Medium';
+  src: url('/font/openai/OpenAISans-Medium.woff2') format('woff2');
+}
+@font-face {
+  font-family: 'OpenAISans-Regular';
+  src: url('/font/openai/OpenAISans-Regular.woff2') format('woff2');
+}
+@font-face {
+  font-family: 'OpenAISans-Semibold';
+  src: url('/font/openai/OpenAISans-Semibold.woff2') format('woff2');
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+    html, body {
+      height: 100%;
+    }
+#loading-screen,
+#loading-screen html,
+#loading-screen body {
+  height: 100%;
+}
+
+#loading-screen {
+  background: radial-gradient(circle at center, #0a0f1a 0%, #05080f 100%);
+  background-image: url('/LoadBackground/hanson-lu-q36bvlgdoag-unsplash.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-blend-mode: overlay;
+  background-color: rgba(5, 8, 15, 0.95);
+  color: #fff;
+  font-family: 'OpenAISans-Medium', sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 20px;
+}
+
+#loading-screen .logo-container {
+  width: 200px;
+  height: 200px;
+  margin-bottom: 40px;
+  filter: drop-shadow(0 0 15px rgba(255, 255, 255, 0.3));
+  transition: transform 0.3s ease;
+}
+
+#loading-screen .logo-container:hover {
+  transform: scale(1.05);
+  filter: drop-shadow(0 0 25px rgba(255, 255, 255, 0.4));
+}
+
+#loading-screen .logo-container img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  animation: glowPulse 2s ease-in-out infinite alternate;
+}
+
+@keyframes glowPulse {
+  0% {
+    filter: drop-shadow(0 0 10px rgba(255, 255, 255, 0.2));
+  }
+  100% {
+    filter: drop-shadow(0 0 20px rgba(255, 255, 255, 0.6));
+  }
+}
+
+#loading-screen .skeleton-text {
+  position: relative;
+  display: inline-block;
+  font-weight: bold;
+  color: transparent;
+  background: linear-gradient(90deg, #2b2b2b 25%, #888 50%, #2b2b2b 75%);
+  background-size: 200% 100%;
+  animation: shimmer 2.2s infinite;
+  background-clip: text;
+  -webkit-background-clip: text;
+}
+
+@keyframes shimmer {
+  0% {
+    background-position: -200% 0;
+  }
+  100% {
+    background-position: 200% 0;
+  }
+}
+
+#loading-screen .jp {
+  font-size: 3em;
+  margin-bottom: 12px;
+  letter-spacing: 5px;
+  font-weight: bold;
+}
+
+#loading-screen .conna {
+  font-size: 1.8em;
+  margin-bottom: 10px;
+  letter-spacing: 2px;
+}
+
+#loading-screen .en {
+  font-size: 1.2em;
+  letter-spacing: 1px;
+  font-weight: bold;
+}
+
+/* ========== 响应式设计 ========== */
+@media (max-width: 768px) {
+  #loading-screen .logo-container {
+    width: 150px;
+    height: 150px;
+    margin-bottom: 30px;
+  }
+  #loading-screen .jp {
+    font-size: 2.2em;
+    letter-spacing: 3px;
+  }
+  #loading-screen .conna {
+    font-size: 1.4em;
+  }
+  #loading-screen .en {
+    font-size: 1em;
+  }
+}
+
+@media (max-width: 480px) {
+  #loading-screen .logo-container {
+    width: 150px;
+    height: 150px;
+    margin-bottom: 25px;
+  }
+  #loading-screen .jp {
+    font-size: 2.4em;
+    letter-spacing: 2px;
+  }
+  #loading-screen .conna {
+    font-size: 1.2em;
+  }
+  #loading-screen .en {
+    font-size: 0.9em;
+  }
+}
