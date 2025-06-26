@@ -15,7 +15,7 @@ body {
   min-height: 100vh;
 
   /* 背景图设置 */
-  background-image: url('/LoadBackground/hanson-lu-_8EFj6ISA08-unsplash.jpg');
+  background-image: url('/LoadBackground/3.jpg');
   background-size: cover;               /* 自动缩放以覆盖全屏，可能裁剪边缘 */
   background-position: center center;   /* 始终居中显示图片 */
   background-repeat: no-repeat;         /* 不重复 */
