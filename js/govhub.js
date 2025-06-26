@@ -8,5 +8,24 @@ const newsData = [
     link: '/2025/6/24/Military-Parade-on-September-3-2025.html',
     img: '/2025/6/24/Snipaste_2025-06-26_11-40-36.jpg'
   },
+  {
+    id: 10002,
+    category: 'government',
+    date: '2025-06-25',
+    title: `李强出席2025年夏季达沃斯论坛开幕式并致辞`,
+    desc: `新华社天津6月25日电（记者 朱超、李鲲）6月25日上午，国务院总理李强在天津出席2025年夏季达沃斯论坛开幕式并致辞。厄瓜多尔总统诺沃亚、新加坡总理黄循财、吉尔吉斯斯坦总理卡瑟马利耶夫、塞内加尔总理松科、越南总理范明政，以及来自90多个国家和地区的1700余名各界代表出席。`,
+    link: '/2025/6/24/Li-Qiang-attends-the-opening-ceremony-of-the-2025-Summer-Davos-Forum.html',
+    img: '/2025/6/24/liqiang.jpg'
+  },
+  {
+    id: 10003,
+    category: 'encyclopedia',
+    date: '2025-06-26',
+    title: `全国高等学校名单 截至2024年6月20日`,
+    desc: `截至2024年6月20日，全国高等学校共计3117所，其中：普通高等学校2868所，含本科学校1308所、高职（专科）学校1560所；成人高等学校249所。本名单未包含港澳台地区高等学校。`,
+    link: '/2025/6/24/2024-Higher-Education-Institutions.html',
+    img: ''
+  },
+
 
 ];
