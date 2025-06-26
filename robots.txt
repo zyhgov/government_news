@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://zyhgov.cn/sitemap.xml 
+Sitemap: https://govhub.zyhgov.cn/sitemap.xml 
