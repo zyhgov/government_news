@@ -12,5 +12,17 @@
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
     </url>
+    <url>
+        <loc>https://govhub.zyhgov.cn/2025/6/24/Li-Qiang-attends-the-opening-ceremony-of-the-2025-Summer-Davos-Forum.html</loc> 
+        <lastmod>2025-06-25</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://govhub.zyhgov.cn/2025/6/24/2024-Higher-Education-Institutions.html</loc> 
+        <lastmod>2025-06-26</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.8</priority>
+    </url>
 
 </urlset>
